@@ -10,8 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
-LOGIN_REDIRECT_URL = "/"
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -124,3 +122,5 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 LOGOUT_REDIRECT_URL = "/"
+
+LOGIN_REDIRECT_URL = "/"
